@@ -45,6 +45,10 @@ html, body {
   transform: translateY(-50%);
 }
 
+.logo-img-container-two {
+  display: none;
+}
+
 
 /*SIGN IN*/
 .sign-in-action {
@@ -116,3 +120,38 @@ input[type=submit] {
   color: #0084B2;
   text-decoration: none;
 }
+
+
+/* Media queries */
+@media (max-width: 1120px) {
+  .forget-or-sign-up {
+    position: static;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo, .sign-in-action {
+    width: 100%;
+    float: none;
+    height: auto;
+    margin: 0 0;
+  }
+
+  .logo {
+
+  }
+
+  .logo-img-container {
+    display: none;
+  }
+
+  .logo-img-container-two {
+    display: block;
+  }
+
+  .sign-in-form {
+    margin: 3%;
+  }
+}
+
+
